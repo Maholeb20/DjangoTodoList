@@ -1,0 +1,46 @@
+
+//Phone media Query
+@media screen and (min-width: 1080px) {
+    .export{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .export{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .column{
+        display:flex;
+        flex-direction: column;
+    }
+    .width{
+        width: 100vw;
+        margin: auto;
+    }
+    .scroller{
+        overflow:auto;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .export{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .column{
+        display:flex;
+        flex-direction: column;
+    }
+    .width{
+        width: 100vw;
+        margin: auto;
+    }
+    .scroller{
+        overflow:auto;
+        width: 100%;
+        height: 100%;
+    }
+}
